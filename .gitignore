@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.pyc
+rustfs-data/
+data/
+artifacts/run-logs/
+artifacts/results/mapreduce.json
+artifacts/results/duckdb.json
+artifacts/results/mapreduce_skills.json
+artifacts/results/mapreduce_pairs.json
+artifacts/results/mapreduce_triples.json
+tmp/
+work/
+outputs/

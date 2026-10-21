@@ -1,0 +1,1495 @@
+{
+  "top_regions": [
+    {
+      "region": "Москва",
+      "vacancies": 3007,
+      "salary_n": 523,
+      "median_salary_rur": 287356.32,
+      "top_skills": [
+        {
+          "skills": [
+            "Linux"
+          ],
+          "count": 1210
+        },
+        {
+          "skills": [
+            "Kubernetes"
+          ],
+          "count": 1083
+        },
+        {
+          "skills": [
+            "Docker"
+          ],
+          "count": 980
+        },
+        {
+          "skills": [
+            "DevOps"
+          ],
+          "count": 754
+        },
+        {
+          "skills": [
+            "Ansible"
+          ],
+          "count": 681
+        },
+        {
+          "skills": [
+            "CI/CD"
+          ],
+          "count": 567
+        },
+        {
+          "skills": [
+            "Python"
+          ],
+          "count": 545
+        },
+        {
+          "skills": [
+            "PostgreSQL"
+          ],
+          "count": 530
+        },
+        {
+          "skills": [
+            "Bash"
+          ],
+          "count": 464
+        },
+        {
+          "skills": [
+            "Grafana"
+          ],
+          "count": 416
+        }
+      ],
+      "top_pairs": [
+        {
+          "skills": [
+            "Docker",
+            "Kubernetes"
+          ],
+          "count": 679
+        },
+        {
+          "skills": [
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 648
+        },
+        {
+          "skills": [
+            "Docker",
+            "Linux"
+          ],
+          "count": 630
+        },
+        {
+          "skills": [
+            "DevOps",
+            "Linux"
+          ],
+          "count": 483
+        },
+        {
+          "skills": [
+            "DevOps",
+            "Kubernetes"
+          ],
+          "count": 482
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Linux"
+          ],
+          "count": 462
+        },
+        {
+          "skills": [
+            "DevOps",
+            "Docker"
+          ],
+          "count": 429
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Kubernetes"
+          ],
+          "count": 416
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Docker"
+          ],
+          "count": 397
+        },
+        {
+          "skills": [
+            "Linux",
+            "Python"
+          ],
+          "count": 389
+        }
+      ],
+      "top_triples": [
+        {
+          "skills": [
+            "Docker",
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 423
+        },
+        {
+          "skills": [
+            "DevOps",
+            "Docker",
+            "Kubernetes"
+          ],
+          "count": 318
+        },
+        {
+          "skills": [
+            "DevOps",
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 312
+        },
+        {
+          "skills": [
+            "DevOps",
+            "Docker",
+            "Linux"
+          ],
+          "count": 300
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Docker",
+            "Linux"
+          ],
+          "count": 283
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 277
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Docker",
+            "Kubernetes"
+          ],
+          "count": 275
+        },
+        {
+          "skills": [
+            "CI/CD",
+            "Docker",
+            "Kubernetes"
+          ],
+          "count": 227
+        },
+        {
+          "skills": [
+            "CI/CD",
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 222
+        },
+        {
+          "skills": [
+            "Bash",
+            "Linux",
+            "Python"
+          ],
+          "count": 218
+        }
+      ]
+    },
+    {
+      "region": "Санкт-Петербург",
+      "vacancies": 686,
+      "salary_n": 147,
+      "median_salary_rur": 230000.0,
+      "top_skills": [
+        {
+          "skills": [
+            "Linux"
+          ],
+          "count": 299
+        },
+        {
+          "skills": [
+            "Docker"
+          ],
+          "count": 274
+        },
+        {
+          "skills": [
+            "Kubernetes"
+          ],
+          "count": 252
+        },
+        {
+          "skills": [
+            "Ansible"
+          ],
+          "count": 198
+        },
+        {
+          "skills": [
+            "CI/CD"
+          ],
+          "count": 166
+        },
+        {
+          "skills": [
+            "Python"
+          ],
+          "count": 151
+        },
+        {
+          "skills": [
+            "DevOps"
+          ],
+          "count": 149
+        },
+        {
+          "skills": [
+            "Bash"
+          ],
+          "count": 142
+        },
+        {
+          "skills": [
+            "Grafana"
+          ],
+          "count": 129
+        },
+        {
+          "skills": [
+            "PostgreSQL"
+          ],
+          "count": 119
+        }
+      ],
+      "top_pairs": [
+        {
+          "skills": [
+            "Docker",
+            "Kubernetes"
+          ],
+          "count": 173
+        },
+        {
+          "skills": [
+            "Docker",
+            "Linux"
+          ],
+          "count": 172
+        },
+        {
+          "skills": [
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 153
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Docker"
+          ],
+          "count": 139
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Linux"
+          ],
+          "count": 136
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Kubernetes"
+          ],
+          "count": 116
+        },
+        {
+          "skills": [
+            "CI/CD",
+            "Docker"
+          ],
+          "count": 100
+        },
+        {
+          "skills": [
+            "Linux",
+            "Python"
+          ],
+          "count": 98
+        },
+        {
+          "skills": [
+            "CI/CD",
+            "Linux"
+          ],
+          "count": 97
+        },
+        {
+          "skills": [
+            "CI/CD",
+            "Kubernetes"
+          ],
+          "count": 97
+        }
+      ],
+      "top_triples": [
+        {
+          "skills": [
+            "Docker",
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 109
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Docker",
+            "Linux"
+          ],
+          "count": 91
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Docker",
+            "Kubernetes"
+          ],
+          "count": 86
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 79
+        },
+        {
+          "skills": [
+            "CI/CD",
+            "Docker",
+            "Kubernetes"
+          ],
+          "count": 73
+        },
+        {
+          "skills": [
+            "CI/CD",
+            "Docker",
+            "Linux"
+          ],
+          "count": 66
+        },
+        {
+          "skills": [
+            "DevOps",
+            "Docker",
+            "Kubernetes"
+          ],
+          "count": 62
+        },
+        {
+          "skills": [
+            "Bash",
+            "Linux",
+            "Python"
+          ],
+          "count": 61
+        },
+        {
+          "skills": [
+            "Grafana",
+            "Kubernetes",
+            "Prometheus"
+          ],
+          "count": 61
+        },
+        {
+          "skills": [
+            "CI/CD",
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 61
+        }
+      ]
+    },
+    {
+      "region": "Екатеринбург",
+      "vacancies": 188,
+      "salary_n": 41,
+      "median_salary_rur": 172413.79,
+      "top_skills": [
+        {
+          "skills": [
+            "Linux"
+          ],
+          "count": 91
+        },
+        {
+          "skills": [
+            "Docker"
+          ],
+          "count": 79
+        },
+        {
+          "skills": [
+            "Kubernetes"
+          ],
+          "count": 77
+        },
+        {
+          "skills": [
+            "Ansible"
+          ],
+          "count": 51
+        },
+        {
+          "skills": [
+            "DevOps"
+          ],
+          "count": 47
+        },
+        {
+          "skills": [
+            "Bash"
+          ],
+          "count": 45
+        },
+        {
+          "skills": [
+            "Python"
+          ],
+          "count": 41
+        },
+        {
+          "skills": [
+            "CI/CD"
+          ],
+          "count": 39
+        },
+        {
+          "skills": [
+            "Grafana"
+          ],
+          "count": 33
+        },
+        {
+          "skills": [
+            "PostgreSQL"
+          ],
+          "count": 32
+        }
+      ],
+      "top_pairs": [
+        {
+          "skills": [
+            "Docker",
+            "Kubernetes"
+          ],
+          "count": 64
+        },
+        {
+          "skills": [
+            "Docker",
+            "Linux"
+          ],
+          "count": 59
+        },
+        {
+          "skills": [
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 59
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Linux"
+          ],
+          "count": 43
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Docker"
+          ],
+          "count": 41
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Kubernetes"
+          ],
+          "count": 39
+        },
+        {
+          "skills": [
+            "DevOps",
+            "Kubernetes"
+          ],
+          "count": 37
+        },
+        {
+          "skills": [
+            "DevOps",
+            "Docker"
+          ],
+          "count": 34
+        },
+        {
+          "skills": [
+            "DevOps",
+            "Linux"
+          ],
+          "count": 34
+        },
+        {
+          "skills": [
+            "Bash",
+            "Docker"
+          ],
+          "count": 33
+        }
+      ],
+      "top_triples": [
+        {
+          "skills": [
+            "Docker",
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 49
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Docker",
+            "Kubernetes"
+          ],
+          "count": 36
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Docker",
+            "Linux"
+          ],
+          "count": 34
+        },
+        {
+          "skills": [
+            "Ansible",
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 34
+        },
+        {
+          "skills": [
+            "DevOps",
+            "Docker",
+            "Kubernetes"
+          ],
+          "count": 31
+        },
+        {
+          "skills": [
+            "DevOps",
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 29
+        },
+        {
+          "skills": [
+            "Bash",
+            "Docker",
+            "Kubernetes"
+          ],
+          "count": 29
+        },
+        {
+          "skills": [
+            "Docker",
+            "Kubernetes",
+            "Python"
+          ],
+          "count": 27
+        },
+        {
+          "skills": [
+            "DevOps",
+            "Docker",
+            "Linux"
+          ],
+          "count": 26
+        },
+        {
+          "skills": [
+            "Bash",
+            "Kubernetes",
+            "Linux"
+          ],
+          "count": 25
+        }
+      ]
+    }
+  ],
+  "pair_increase": [
+    {
+      "skills": [
+        "DevOps",
+        "SRE"
+      ],
+      "count": 28,
+      "salary_n": 10,
+      "median_salary_rur": 400000.0,
+      "baseline_skills": [
+        "DevOps"
+      ],
+      "baseline_count": 1287,
+      "baseline_median_salary_rur": 229885.06,
+      "delta_rur": 170114.94
+    },
+    {
+      "skills": [
+        "Git",
+        "GitLab CI"
+      ],
+      "count": 55,
+      "salary_n": 10,
+      "median_salary_rur": 379310.34,
+      "baseline_skills": [
+        "Git"
+      ],
+      "baseline_count": 733,
+      "baseline_median_salary_rur": 218390.8,
+      "delta_rur": 160919.54
+    },
+    {
+      "skills": [
+        "Grafana",
+        "OpenShift"
+      ],
+      "count": 45,
+      "salary_n": 11,
+      "median_salary_rur": 402298.85,
+      "baseline_skills": [
+        "Grafana"
+      ],
+      "baseline_count": 823,
+      "baseline_median_salary_rur": 264367.82,
+      "delta_rur": 137931.03
+    },
+    {
+      "skills": [
+        "Bash",
+        "СУБД"
+      ],
+      "count": 18,
+      "salary_n": 10,
+      "median_salary_rur": 363649.43,
+      "baseline_skills": [
+        "Bash"
+      ],
+      "baseline_count": 925,
+      "baseline_median_salary_rur": 229885.06,
+      "delta_rur": 133764.37
+    },
+    {
+      "skills": [
+        "Docker",
+        "OpenShift"
+      ],
+      "count": 78,
+      "salary_n": 10,
+      "median_salary_rur": 370689.66,
+      "baseline_skills": [
+        "Docker"
+      ],
+      "baseline_count": 1812,
+      "baseline_median_salary_rur": 241379.31,
+      "delta_rur": 129310.35
+    },
+    {
+      "skills": [
+        "Gitlab",
+        "GitLab CI"
+      ],
+      "count": 30,
+      "salary_n": 12,
+      "median_salary_rur": 379310.34,
+      "baseline_skills": [
+        "Gitlab"
+      ],
+      "baseline_count": 546,
+      "baseline_median_salary_rur": 251436.78,
+      "delta_rur": 127873.56
+    },
+    {
+      "skills": [
+        "CI/CD",
+        "Helm"
+      ],
+      "count": 59,
+      "salary_n": 10,
+      "median_salary_rur": 370689.66,
+      "baseline_skills": [
+        "CI/CD"
+      ],
+      "baseline_count": 1020,
+      "baseline_median_salary_rur": 250000.0,
+      "delta_rur": 120689.66
+    },
+    {
+      "skills": [
+        "Linux",
+        "OpenShift"
+      ],
+      "count": 67,
+      "salary_n": 11,
+      "median_salary_rur": 350000.0,
+      "baseline_skills": [
+        "Linux"
+      ],
+      "baseline_count": 2190,
+      "baseline_median_salary_rur": 229885.06,
+      "delta_rur": 120114.94
+    },
+    {
+      "skills": [
+        "Terraform",
+        "Zabbix"
+      ],
+      "count": 96,
+      "salary_n": 32,
+      "median_salary_rur": 344827.59,
+      "baseline_skills": [
+        "Zabbix"
+      ],
+      "baseline_count": 480,
+      "baseline_median_salary_rur": 229885.06,
+      "delta_rur": 114942.53
+    },
+    {
+      "skills": [
+        "Bash",
+        "GitLab CI"
+      ],
+      "count": 87,
+      "salary_n": 16,
+      "median_salary_rur": 344827.59,
+      "baseline_skills": [
+        "Bash"
+      ],
+      "baseline_count": 925,
+      "baseline_median_salary_rur": 229885.06,
+      "delta_rur": 114942.53
+    }
+  ],
+  "pair_decrease": [
+    {
+      "skills": [
+        "Ansible",
+        "Atlassian Jira"
+      ],
+      "count": 29,
+      "salary_n": 10,
+      "median_salary_rur": 143678.16,
+      "baseline_skills": [
+        "Ansible"
+      ],
+      "baseline_count": 1231,
+      "baseline_median_salary_rur": 287356.32,
+      "delta_rur": -143678.16
+    },
+    {
+      "skills": [
+        "Ansible",
+        "Debian"
+      ],
+      "count": 23,
+      "salary_n": 11,
+      "median_salary_rur": 160919.54,
+      "baseline_skills": [
+        "Ansible"
+      ],
+      "baseline_count": 1231,
+      "baseline_median_salary_rur": 287356.32,
+      "delta_rur": -126436.78
+    },
+    {
+      "skills": [
+        "Debian",
+        "Nginx"
+      ],
+      "count": 20,
+      "salary_n": 12,
+      "median_salary_rur": 114942.53,
+      "baseline_skills": [
+        "Nginx"
+      ],
+      "baseline_count": 551,
+      "baseline_median_salary_rur": 229885.06,
+      "delta_rur": -114942.53
+    },
+    {
+      "skills": [
+        "Debian",
+        "Linux"
+      ],
+      "count": 38,
+      "salary_n": 19,
+      "median_salary_rur": 114942.53,
+      "baseline_skills": [
+        "Linux"
+      ],
+      "baseline_count": 2190,
+      "baseline_median_salary_rur": 229885.06,
+      "delta_rur": -114942.53
+    },
+    {
+      "skills": [
+        "Debian",
+        "Администрирование серверов Linux"
+      ],
+      "count": 14,
+      "salary_n": 10,
+      "median_salary_rur": 114942.53,
+      "baseline_skills": [
+        "Администрирование серверов Linux"
+      ],
+      "baseline_count": 391,
+      "baseline_median_salary_rur": 225000.0,
+      "delta_rur": -110057.47
+    },
+    {
+      "skills": [
+        "Apache HTTP Server",
+        "Администрирование серверов Linux"
+      ],
+      "count": 12,
+      "salary_n": 11,
+      "median_salary_rur": 114942.53,
+      "baseline_skills": [
+        "Администрирование серверов Linux"
+      ],
+      "baseline_count": 391,
+      "baseline_median_salary_rur": 225000.0,
+      "delta_rur": -110057.47
+    },
+    {
+      "skills": [
+        "PostgreSQL",
+        "Английский язык"
+      ],
+      "count": 21,
+      "salary_n": 11,
+      "median_salary_rur": 150000.0,
+      "baseline_skills": [
+        "PostgreSQL"
+      ],
+      "baseline_count": 892,
+      "baseline_median_salary_rur": 258620.69,
+      "delta_rur": -108620.69
+    },
+    {
+      "skills": [
+        "Debian",
+        "PostgreSQL"
+      ],
+      "count": 22,
+      "salary_n": 11,
+      "median_salary_rur": 150000.0,
+      "baseline_skills": [
+        "PostgreSQL"
+      ],
+      "baseline_count": 892,
+      "baseline_median_salary_rur": 258620.69,
+      "delta_rur": -108620.69
+    },
+    {
+      "skills": [
+        "Kubernetes",
+        "VMware"
+      ],
+      "count": 41,
+      "salary_n": 10,
+      "median_salary_rur": 183706.9,
+      "baseline_skills": [
+        "Kubernetes"
+      ],
+      "baseline_count": 1829,
+      "baseline_median_salary_rur": 287356.32,
+      "delta_rur": -103649.42
+    },
+    {
+      "skills": [
+        "AWS",
+        "ELK"
+      ],
+      "count": 44,
+      "salary_n": 10,
+      "median_salary_rur": 183908.05,
+      "baseline_skills": [
+        "ELK"
+      ],
+      "baseline_count": 435,
+      "baseline_median_salary_rur": 287356.32,
+      "delta_rur": -103448.27
+    }
+  ],
+  "triple_increase": [
+    {
+      "skills": [
+        "CI/CD",
+        "ELK",
+        "Python"
+      ],
+      "count": 63,
+      "salary_n": 13,
+      "median_salary_rur": 402298.85,
+      "baseline_skills": [
+        "CI/CD",
+        "Python"
+      ],
+      "baseline_count": 311,
+      "baseline_median_salary_rur": 229885.06,
+      "delta_rur": 172413.79
+    },
+    {
+      "skills": [
+        "Git",
+        "GitLab CI",
+        "Linux"
+      ],
+      "count": 50,
+      "salary_n": 10,
+      "median_salary_rur": 379310.34,
+      "baseline_skills": [
+        "Git",
+        "Linux"
+      ],
+      "baseline_count": 584,
+      "baseline_median_salary_rur": 206896.55,
+      "delta_rur": 172413.79
+    },
+    {
+      "skills": [
+        "Bash",
+        "CI/CD",
+        "ELK"
+      ],
+      "count": 60,
+      "salary_n": 16,
+      "median_salary_rur": 402298.85,
+      "baseline_skills": [
+        "Bash",
+        "CI/CD"
+      ],
+      "baseline_count": 278,
+      "baseline_median_salary_rur": 235632.18,
+      "delta_rur": 166666.67
+    },
+    {
+      "skills": [
+        "CI/CD",
+        "ELK",
+        "Gitlab"
+      ],
+      "count": 57,
+      "salary_n": 18,
+      "median_salary_rur": 388649.43,
+      "baseline_skills": [
+        "CI/CD",
+        "Gitlab"
+      ],
+      "baseline_count": 217,
+      "baseline_median_salary_rur": 229885.06,
+      "delta_rur": 158764.37
+    },
+    {
+      "skills": [
+        "CI/CD",
+        "Python",
+        "СУБД"
+      ],
+      "count": 12,
+      "salary_n": 11,
+      "median_salary_rur": 385057.47,
+      "baseline_skills": [
+        "CI/CD",
+        "Python"
+      ],
+      "baseline_count": 311,
+      "baseline_median_salary_rur": 229885.06,
+      "delta_rur": 155172.41
+    },
+    {
+      "skills": [
+        "DevOps",
+        "Docker",
+        "СУБД"
+      ],
+      "count": 22,
+      "salary_n": 11,
+      "median_salary_rur": 385057.47,
+      "baseline_skills": [
+        "DevOps",
+        "Docker"
+      ],
+      "baseline_count": 798,
+      "baseline_median_salary_rur": 234942.53,
+      "delta_rur": 150114.94
+    },
+    {
+      "skills": [
+        "Docker",
+        "Python",
+        "СУБД"
+      ],
+      "count": 13,
+      "salary_n": 11,
+      "median_salary_rur": 385057.47,
+      "baseline_skills": [
+        "Docker",
+        "Python"
+      ],
+      "baseline_count": 584,
+      "baseline_median_salary_rur": 234942.53,
+      "delta_rur": 150114.94
+    },
+    {
+      "skills": [
+        "Bash",
+        "DevOps",
+        "ELK"
+      ],
+      "count": 49,
+      "salary_n": 23,
+      "median_salary_rur": 402298.85,
+      "baseline_skills": [
+        "Bash",
+        "DevOps"
+      ],
+      "baseline_count": 375,
+      "baseline_median_salary_rur": 258620.69,
+      "delta_rur": 143678.16
+    },
+    {
+      "skills": [
+        "CI/CD",
+        "Git",
+        "Jenkins"
+      ],
+      "count": 66,
+      "salary_n": 11,
+      "median_salary_rur": 402298.85,
+      "baseline_skills": [
+        "CI/CD",
+        "Jenkins"
+      ],
+      "baseline_count": 255,
+      "baseline_median_salary_rur": 258620.69,
+      "delta_rur": 143678.16
+    },
+    {
+      "skills": [
+        "Git",
+        "Gitlab",
+        "Jenkins"
+      ],
+      "count": 37,
+      "salary_n": 11,
+      "median_salary_rur": 402298.85,
+      "baseline_skills": [
+        "Git",
+        "Jenkins"
+      ],
+      "baseline_count": 205,
+      "baseline_median_salary_rur": 258620.69,
+      "delta_rur": 143678.16
+    }
+  ],
+  "triple_decrease": [
+    {
+      "skills": [
+        "ELK",
+        "Prometheus",
+        "Администрирование серверов Linux"
+      ],
+      "count": 33,
+      "salary_n": 19,
+      "median_salary_rur": 143678.16,
+      "baseline_skills": [
+        "ELK",
+        "Prometheus"
+      ],
+      "baseline_count": 239,
+      "baseline_median_salary_rur": 287356.32,
+      "delta_rur": -143678.16
+    },
+    {
+      "skills": [
+        "Kubernetes",
+        "PostgreSQL",
+        "Английский язык"
+      ],
+      "count": 16,
+      "salary_n": 10,
+      "median_salary_rur": 146839.08,
+      "baseline_skills": [
+        "Kubernetes",
+        "PostgreSQL"
+      ],
+      "baseline_count": 510,
+      "baseline_median_salary_rur": 287356.32,
+      "delta_rur": -140517.24
+    },
+    {
+      "skills": [
+        "Ansible",
+        "PostgreSQL",
+        "Английский язык"
+      ],
+      "count": 11,
+      "salary_n": 10,
+      "median_salary_rur": 146839.08,
+      "baseline_skills": [
+        "Ansible",
+        "PostgreSQL"
+      ],
+      "baseline_count": 344,
+      "baseline_median_salary_rur": 287356.32,
+      "delta_rur": -140517.24
+    },
+    {
+      "skills": [
+        "DevOps",
+        "MySQL",
+        "Terraform"
+      ],
+      "count": 21,
+      "salary_n": 12,
+      "median_salary_rur": 195402.3,
+      "baseline_skills": [
+        "DevOps",
+        "Terraform"
+      ],
+      "baseline_count": 199,
+      "baseline_median_salary_rur": 330459.77,
+      "delta_rur": -135057.47
+    },
+    {
+      "skills": [
+        "DevOps",
+        "MySQL",
+        "Prometheus"
+      ],
+      "count": 46,
+      "salary_n": 14,
+      "median_salary_rur": 163793.1,
+      "baseline_skills": [
+        "DevOps",
+        "Prometheus"
+      ],
+      "baseline_count": 298,
+      "baseline_median_salary_rur": 287356.32,
+      "delta_rur": -123563.22
+    },
+    {
+      "skills": [
+        "Ansible",
+        "Python",
+        "Английский язык"
+      ],
+      "count": 13,
+      "salary_n": 10,
+      "median_salary_rur": 146839.08,
+      "baseline_skills": [
+        "Ansible",
+        "Python"
+      ],
+      "baseline_count": 456,
+      "baseline_median_salary_rur": 270114.94,
+      "delta_rur": -123275.86
+    },
+    {
+      "skills": [
+        "Bash",
+        "Kubernetes",
+        "SQL"
+      ],
+      "count": 62,
+      "salary_n": 13,
+      "median_salary_rur": 165000.0,
+      "baseline_skills": [
+        "Bash",
+        "Kubernetes"
+      ],
+      "baseline_count": 501,
+      "baseline_median_salary_rur": 287356.32,
+      "delta_rur": -122356.32
+    },
+    {
+      "skills": [
+        "Bash",
+        "PostgreSQL",
+        "SQL"
+      ],
+      "count": 36,
+      "salary_n": 10,
+      "median_salary_rur": 140000.0,
+      "baseline_skills": [
+        "Bash",
+        "PostgreSQL"
+      ],
+      "baseline_count": 269,
+      "baseline_median_salary_rur": 258620.69,
+      "delta_rur": -118620.69
+    },
+    {
+      "skills": [
+        "DevOps",
+        "Elasticsearch",
+        "Kubernetes"
+      ],
+      "count": 31,
+      "salary_n": 10,
+      "median_salary_rur": 169540.23,
+      "baseline_skills": [
+        "DevOps",
+        "Kubernetes"
+      ],
+      "baseline_count": 798,
+      "baseline_median_salary_rur": 287356.32,
+      "delta_rur": -117816.09
+    },
+    {
+      "skills": [
+        "Kubernetes",
+        "Python",
+        "Английский язык"
+      ],
+      "count": 22,
+      "salary_n": 10,
+      "median_salary_rur": 146839.08,
+      "baseline_skills": [
+        "Kubernetes",
+        "Python"
+      ],
+      "baseline_count": 552,
+      "baseline_median_salary_rur": 264367.82,
+      "delta_rur": -117528.74
+    }
+  ],
+  "profile_summary": {
+    "mapreduce": {
+      "median_seconds": 2.2971,
+      "median_peak_rss_mb": 556.7
+    },
+    "duckdb": {
+      "median_seconds": 2.0968,
+      "median_peak_rss_mb": 688.0
+    }
+  },
+  "top_skills": [
+    {
+      "skills": [
+        "Linux"
+      ],
+      "count": 2190,
+      "salary_n": 455,
+      "median_salary_rur": 229885.06
+    },
+    {
+      "skills": [
+        "Kubernetes"
+      ],
+      "count": 1829,
+      "salary_n": 364,
+      "median_salary_rur": 287356.32
+    },
+    {
+      "skills": [
+        "Docker"
+      ],
+      "count": 1812,
+      "salary_n": 435,
+      "median_salary_rur": 241379.31
+    },
+    {
+      "skills": [
+        "DevOps"
+      ],
+      "count": 1287,
+      "salary_n": 320,
+      "median_salary_rur": 229885.06
+    },
+    {
+      "skills": [
+        "Ansible"
+      ],
+      "count": 1231,
+      "salary_n": 243,
+      "median_salary_rur": 287356.32
+    },
+    {
+      "skills": [
+        "Python"
+      ],
+      "count": 1058,
+      "salary_n": 206,
+      "median_salary_rur": 229885.06
+    },
+    {
+      "skills": [
+        "CI/CD"
+      ],
+      "count": 1020,
+      "salary_n": 202,
+      "median_salary_rur": 250000.0
+    },
+    {
+      "skills": [
+        "Bash"
+      ],
+      "count": 925,
+      "salary_n": 211,
+      "median_salary_rur": 229885.06
+    },
+    {
+      "skills": [
+        "PostgreSQL"
+      ],
+      "count": 892,
+      "salary_n": 234,
+      "median_salary_rur": 258620.69
+    },
+    {
+      "skills": [
+        "Grafana"
+      ],
+      "count": 823,
+      "salary_n": 210,
+      "median_salary_rur": 264367.82
+    },
+    {
+      "skills": [
+        "Git"
+      ],
+      "count": 733,
+      "salary_n": 187,
+      "median_salary_rur": 218390.8
+    },
+    {
+      "skills": [
+        "Jenkins"
+      ],
+      "count": 662,
+      "salary_n": 95,
+      "median_salary_rur": 258620.69
+    },
+    {
+      "skills": [
+        "Prometheus"
+      ],
+      "count": 660,
+      "salary_n": 169,
+      "median_salary_rur": 287356.32
+    },
+    {
+      "skills": [
+        "Nginx"
+      ],
+      "count": 551,
+      "salary_n": 182,
+      "median_salary_rur": 229885.06
+    },
+    {
+      "skills": [
+        "Gitlab"
+      ],
+      "count": 546,
+      "salary_n": 144,
+      "median_salary_rur": 251436.78
+    },
+    {
+      "skills": [
+        "Zabbix"
+      ],
+      "count": 480,
+      "salary_n": 132,
+      "median_salary_rur": 229885.06
+    },
+    {
+      "skills": [
+        "Terraform"
+      ],
+      "count": 462,
+      "salary_n": 101,
+      "median_salary_rur": 287356.32
+    },
+    {
+      "skills": [
+        "ELK"
+      ],
+      "count": 435,
+      "salary_n": 105,
+      "median_salary_rur": 287356.32
+    },
+    {
+      "skills": [
+        "Администрирование серверов Linux"
+      ],
+      "count": 391,
+      "salary_n": 117,
+      "median_salary_rur": 225000.0
+    },
+    {
+      "skills": [
+        "SQL"
+      ],
+      "count": 338,
+      "salary_n": 72,
+      "median_salary_rur": 229885.06
+    }
+  ],
+  "combination_growth": {
+    "1": 1560,
+    "2": 22286,
+    "3": 152375
+  }
+}

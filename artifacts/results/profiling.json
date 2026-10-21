@@ -1,0 +1,52 @@
+{
+  "runs": [
+    {
+      "engine": "mapreduce",
+      "attempt": 1,
+      "seconds": 2.3046,
+      "peak_rss_mb": 556.7,
+      "exit_code": 0,
+      "log": "artifacts/run-logs/mapreduce-1.log"
+    },
+    {
+      "engine": "mapreduce",
+      "attempt": 2,
+      "seconds": 2.2971,
+      "peak_rss_mb": 551.75,
+      "exit_code": 0,
+      "log": "artifacts/run-logs/mapreduce-2.log"
+    },
+    {
+      "engine": "mapreduce",
+      "attempt": 3,
+      "seconds": 2.2746,
+      "peak_rss_mb": 595.52,
+      "exit_code": 0,
+      "log": "artifacts/run-logs/mapreduce-3.log"
+    },
+    {
+      "engine": "duckdb",
+      "attempt": 1,
+      "seconds": 2.1382,
+      "peak_rss_mb": 677.12,
+      "exit_code": 0,
+      "log": "artifacts/run-logs/duckdb-1.log"
+    },
+    {
+      "engine": "duckdb",
+      "attempt": 2,
+      "seconds": 2.0968,
+      "peak_rss_mb": 688.0,
+      "exit_code": 0,
+      "log": "artifacts/run-logs/duckdb-2.log"
+    },
+    {
+      "engine": "duckdb",
+      "attempt": 3,
+      "seconds": 2.0674,
+      "peak_rss_mb": 708.34,
+      "exit_code": 0,
+      "log": "artifacts/run-logs/duckdb-3.log"
+    }
+  ]
+}

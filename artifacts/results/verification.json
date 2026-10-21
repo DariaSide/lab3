@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": {
+    "rows": true,
+    "rows_with_skills": true,
+    "skills": true,
+    "pairs": true,
+    "triples": true
+  },
+  "mapreduce_rows": 5158,
+  "duckdb_rows": 5158
+}
