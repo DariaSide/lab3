@@ -23,7 +23,7 @@ RESULTS = ROOT / "artifacts" / "results"
 OUT_REPO = ROOT / "report" / "Lab3_MapReduce_DevOps.pdf"
 OUT_USER = ROOT / "outputs" / "Lab3_MapReduce_DevOps.pdf"
 TMP = ROOT / "tmp" / "pdfs"
-REPOSITORY_URL = "https://github.com/DariaSide/lab3-mapreduce-rustfs-devops"
+REPOSITORY_URL = "https://github.com/DariaSide/lab3"
 
 
 def load(name):
