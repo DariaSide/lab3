@@ -23,7 +23,7 @@ RESULTS = ROOT / "artifacts" / "results"
 OUT_REPO = ROOT / "report" / "Lab3_MapReduce_DevOps.pdf"
 OUT_USER = ROOT / "outputs" / "Lab3_MapReduce_DevOps.pdf"
 TMP = ROOT / "tmp" / "pdfs"
-VARIANT_IMAGE = Path("/var/folders/34/s31951c50p9f5_w1_s5xj4tc0000gn/T/TemporaryItems/NSIRD_screencaptureui_ALajhH/Снимок экрана — 2026-10-21 в 12.55.47 PM.png")
+REPOSITORY_URL = "https://github.com/DariaSide/lab3-mapreduce-rustfs-devops"
 
 
 def load(name):
@@ -78,7 +78,7 @@ def tbl(data, widths, header=True, font=7.2):
         ("ROWBACKGROUNDS", (0,1 if header else 0), (-1,-1), [colors.white, colors.HexColor("#F6F9FA")]),
     ]
     if header:
-        commands += [("BACKGROUND", (0,0), (-1,0), BLUE), ("TEXTCOLOR", (0,0), (-1,0), colors.white), ("FONTNAME", (0,0), (-1,0), "DejaVu-Bold")]
+        commands += [("BACKGROUND", (0,0), (-1,0), colors.HexColor("#DCECF3")), ("TEXTCOLOR", (0,0), (-1,0), BLUE), ("FONTNAME", (0,0), (-1,0), "DejaVu-Bold")]
     t.setStyle(TableStyle(commands)); return t
 
 
@@ -136,10 +136,8 @@ story = []
 story += [Spacer(1, 14*mm), p("Лабораторная работа 3", "TitleRU"), p("Технология MapReduce", "TitleRU"),
           Spacer(1, 7*mm), p("Вариант 11: DevOps-инженер", "Callout"),
           p("Студент: Сидельникова Дарья Николаевна<br/>Группа: ИИИ-3-ИнжДан-1-2<br/>Преподаватель: Артём Галимьянов<br/>Дата выполнения: 21 октября 2026 года", "Sub"),
-          Spacer(1, 12*mm)]
-if VARIANT_IMAGE.exists():
-    story += [p("Подтверждение индивидуального варианта", "H2RU"), Image(str(VARIANT_IMAGE), width=174*mm, height=13.8*mm)]
-story += [Spacer(1, 18*mm), p("Цель", "H2RU"), p("Развернуть объектное хранилище RustFS, обработать один и тот же S3-объект собственной реализацией MapReduce и DuckDB, доказать совпадение результатов, измерить время и память, а затем получить практические выводы о навыках, зарплатах и регионах.")]
+          Spacer(1, 5*mm), p(f'<b>Репозиторий:</b> <link href="{REPOSITORY_URL}" color="#168A8A">{REPOSITORY_URL}</link>', "BodyRU"),
+          Spacer(1, 16*mm), p("Цель", "H2RU"), p("Развернуть объектное хранилище RustFS, обработать один и тот же S3-объект собственной реализацией MapReduce и DuckDB, доказать совпадение результатов, измерить время и память, а затем получить практические выводы о навыках, зарплатах и регионах.")]
 
 story += [PageBreak(), p("1. Исходные данные и условие варианта", "H1RU")]
 story += [p(f"Исходный CSV занимает 847 619 384 байта и содержит {prepare['source_rows']:,} строк.".replace(","," ")),
@@ -159,7 +157,7 @@ story += [PageBreak(), p("2. RustFS и объект в hh-lake", "H1RU"),
           p("Объекты бакета", "H2RU"), command("$ .venv/bin/python -m src.storage list\n" + object_output),
           p("Размеры четырёх дисков после загрузки исходного объекта и результатов", "H2RU"), command("$ docker exec lab3-rustfs du -sk /data1 /data2 /data3 /data4\n" + disk_output),
           p("Каждый том занимает одинаковые 47 664 KiB. Это ожидаемо для EC 2+2 на четырёх дисках: объект делится на два data-фрагмента и два parity-фрагмента. Код хранит 2 единицы полезных данных в 4 фрагментах, коэффициент избыточности равен 4/2 = 2. Разница между логическим размером объектов и du включает метаданные, малые объекты и размер блоков файловой системы."),
-          p("Физическое ограничение", "H2RU"), p("Четыре Docker-тома проверяют распределение фрагментов и отказ отдельных путей, но находятся на одном Mac и одном виртуальном диске Docker Desktop. Это учебная SNMD-конфигурация, а не защита от отказа узла.")]
+          p("Физическое ограничение", "H2RU"), p("RustFS видит четыре отдельных тома и распределяет между ними данные и фрагменты восстановления. Но все тома физически находятся внутри одного Docker Desktop на одном компьютере. Поэтому эксперимент показывает, как система переживает недоступность одного тома, но не защищает от поломки самого компьютера или общего диска. Для настоящей отказоустойчивости нужны разные физические диски, а лучше несколько серверов.")]
 
 story += [PageBreak(), p("3. Собственная реализация MapReduce", "H1RU"),
           p("Драйвер получает размер объекта через HEAD, делит диапазон на чанки по 256 KiB и запускает четыре mapper-потока. Каждый mapper делает S3 Range GET. Границы выравниваются по переводу строки: запись принадлежит чанку, содержащему её первый байт. Mapper формирует локальные счётчики, reducer сливает их в детерминированном порядке."),
@@ -215,21 +213,11 @@ story += [PageBreak(), p("9. Тройки навыков", "H1RU"),
           Spacer(1,5*mm), p("Вывод", "H2RU"), p("CI/CD + ELK + Python и Git + GitLab CI + Linux имеют прибавку около 172 414 RUR к своим наиболее частым парным базам. Наблюдаемые различия полезны как гипотезы для поиска вакансий, но не доказывают, что добавление навыка само по себе повысит зарплату: данные наблюдательные, а зарплатные поля заполнены неполно.")]
 
 story += [PageBreak(), p("10. Итоги и выбор инструмента", "H1RU"),
-          p("Все обязательные блоки лабораторной выполнены", "Callout"),
-          tbl([["Требование", "Доказательство"], ["RustFS и hh-lake", "Контейнер запущен, объект и результаты перечислены через S3 API"], ["Свой MapReduce из S3", "7 Range-чанков, 4 mapper-потока, отдельные JSON для 1/2/3 навыков"], ["DuckDB", "Независимый SQL к тому же S3-объекту"], ["Верификация", "Полное совпадение 5 таблиц проверки"], ["Профилирование", "По 3 запуска, время и пиковый RSS"], ["Отказ mapper", "1 намеренный отказ, 1 повтор, результат совпал"], ["Регионы и зарплаты", "3 региона, пары и тройки, повышения и понижения"]], [48*mm,114*mm]),
-          Spacer(1,6*mm), p("Выбор", "H2RU"),
-          p("Для разового анализа сегмента 1,6 МБ рациональнее DuckDB: код короче, SQL прозрачен, время немного меньше. Собственный MapReduce оправдан как учебная реализация и как основа для обработки объекта чанками при ограниченной памяти. При росте до десятков гигабайт текущий reducer станет узким местом из-за хранения всех комбинаций и зарплат в памяти; следующий шаг - локальные медианные структуры, spill на диск и распределённый shuffle."),
-          p("RustFS подходит как S3-совместимый слой хранения и отделяет данные от вычислителя. Учебная конфигурация с четырьмя томами демонстрирует EC, но не обеспечивает отказоустойчивость узла: для производственной задачи нужны физически независимые диски и несколько узлов, резервные копии, TLS и отдельные сервисные учётные данные."),
+          p("Вывод", "H2RU"),
+          p("На этом наборе данных мне удобнее использовать DuckDB. Запрос получается компактным, его проще проверить, а расчёт выполняется немного быстрее. Собственный MapReduce потребовал больше кода, зато на его примере хорошо видно весь процесс: чтение объекта частями, работа нескольких mapper-задач, объединение результатов и повтор упавшего чанка."),
+          p("Если объём данных вырастет до десятков гигабайт, текущую реализацию MapReduce придётся доработать. Сейчас reducer хранит комбинации и списки зарплат в памяти. Для больших данных промежуточные результаты нужно частично записывать на диск и объединять поэтапно."),
+          p("RustFS оказался удобным общим хранилищем для обоих способов расчёта: MapReduce и DuckDB читали один и тот же объект через S3 API. Четыре учебных тома показывают работу Erasure Coding, но для реальной системы я бы разместила данные на разных физических дисках или серверах, настроила резервное копирование, TLS и отдельную учётную запись для приложения."),
           p("Воспроизводимость", "H2RU"), command("$ cp .env.example .env\n$ make setup\n$ make up\n$ make prepare CSV=/absolute/path/to/it_vacancies_2024.csv\n$ make upload\n$ make profile\n$ make analyze\n$ .venv/bin/python -m src.storage upload-results")]
-
-story += [PageBreak(), p("11. Источники", "H1RU"),
-          p("1. RustFS Documentation. Installation and deployment modes: https://docs.rustfs.com/en/installation"),
-          p("2. RustFS Documentation. Container deployment: https://docs.rustfs.com/en/installation/container"),
-          p("3. RustFS Documentation. SDK and S3 compatibility: https://docs.rustfs.com/en/developer/sdk"),
-          p("4. DuckDB Documentation. S3 API support: https://duckdb.org/docs/stable/core_extensions/httpfs/s3api.html"),
-          p("5. Python Documentation. itertools.combinations: https://docs.python.org/3/library/itertools.html#itertools.combinations"),
-          Spacer(1,8*mm), p("Состав репозитория", "H2RU"),
-          p("docker-compose.yml - RustFS с четырьмя томами; src/prepare.py - фильтрация; src/mapreduce_job.py - собственный MapReduce; src/duckdb_job.py - SQL-контроль; src/verify.py - полная сверка; src/profile_runs.py - три запуска и измерение памяти; src/analysis.py - регионы и зарплатные эффекты; artifacts/results - компактные итоговые JSON; report - этот отчёт.")]
 
 OUT_REPO.parent.mkdir(parents=True, exist_ok=True)
 OUT_USER.parent.mkdir(parents=True, exist_ok=True)
